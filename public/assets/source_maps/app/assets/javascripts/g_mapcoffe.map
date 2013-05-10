@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "/assets/source_maps/app/assets/javascripts/g_mapcoffe.coffee"
+  ],
+  "names": [],
+  "mappings": "AACA;CAAA,CAAA,CAAA,GAAM;CACJ,CAAO,CAAA,CAAP,CAAA,IAAO;CACD,EAAD,KAAH,KAAA;CADF,IAAO;CAAP,CAGU,CAAA,CAAV,IAAA,CAAU;CACR,EAAA,OAAA;;CAAiB,CAAW,CAA5B,CAAU,EAAM,OAAhB;CACE,CAAM,EAAN,IAAA;AACyC,CADzC,CACY,EAAA,EAAZ,CAAY,CAAZ;CADA,CAEW,EAAW,EAAL,CAFjB,CAEA,CAAA;CAJM,OACE;CAJZ,IAGU;CAJZ,GAAA;;CAAA,CAeA,CAAqB,EAArB,GAAA;CAfA"
+}
