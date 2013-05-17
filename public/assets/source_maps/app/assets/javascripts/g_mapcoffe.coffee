@@ -21,10 +21,8 @@ window.app =
         # We could use a single SVG, but what size would it have?
         overlay.draw = ->
           # update existing markers
-
-          # Add a circle.
-
-          # Add a label.
+          # Add a circle
+          # Add a label
           transform = (d) ->
             d = new google.maps.LatLng(d.value[1], d.value[0])
             d = projection.fromLatLngToDivPixel(d)
@@ -35,7 +33,6 @@ window.app =
           marker.append("svg:circle").attr("r", 4.5).attr("cx", padding).attr "cy", padding
           marker.append("svg:text").attr("x", padding + 7).attr("y", padding).attr("dy", ".31em").text (d) ->
             d.key
-
 
 
       # Bind our overlay to the map
