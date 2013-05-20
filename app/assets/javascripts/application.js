@@ -6,5 +6,6 @@
 //=# require 'g_map.js'
 //=# require 'g_mapcoffe.js'
 //=# require 'map.js'
-//= require 'circles_on_map.js'
+//=# require 'circles_on_map.js'
+//= require 'bezier.js'
 

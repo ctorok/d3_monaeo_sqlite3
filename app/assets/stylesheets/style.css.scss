@@ -12,6 +12,8 @@ body {
   padding: 0 10px 0 10px;
 }
 
+
+
 svg {
   width: 100%;
   height: 500px;
@@ -19,32 +21,25 @@ svg {
   background: url(exploration_map_simple.png) no-repeat;
 }
 
-// #map {
-//   width: 100%;
-//   height: 500px;
-//   background: url(exploration_map_simple.png) no-repeat;
-// }
+path {
+  fill: lightsteelblue;
+  stroke: steelblue;
+  fill: none;
+  stroke-width: 3;
 
-
-.stations, .stations svg {
-  position: absolute;
 }
 
-.stations svg {
-  width: 60px;
-  height: 20px;
-  padding-right: 100px;
-  font: 10px sans-serif;
+
+svg text {
+  // width: 60px;
+  // height: 20px;
+  // padding-right: 100px;
+  font: 14px sans-serif;
 }
 
-// .stations circle {
-//   fill: #ccc;
-//   stroke: black;
-//   stroke-width: 1.5px;
-// }
 
-#circle {
-  fill: #ccc;
+circle {
+  fill: orange;
   stroke: black;
   stroke-width: 1.5px;
 }

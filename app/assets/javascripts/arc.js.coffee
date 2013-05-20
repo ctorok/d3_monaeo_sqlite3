@@ -2,13 +2,7 @@
 # this is so we can access this from anywhere. if it's not global, you can't get to it
 window.app =
   ready: ->
-    # console.log('i am ready')
     app.draw_arc()
-  # color_body: ->
-  #   d3.select('body')
-  #     .style('background-color', 'magenta')
-
-
 
 
   draw_arc: ->
