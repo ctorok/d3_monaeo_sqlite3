@@ -26,6 +26,7 @@ path {
   stroke: steelblue;
   fill: none;
   stroke-width: 3;
+  // stroke-dasharray: 3
 
 }
 
@@ -35,6 +36,13 @@ svg text {
   // height: 20px;
   // padding-right: 100px;
   font: 14px sans-serif;
+}
+
+text.home {
+
+  font-size: 20px;
+  font-family: "Tahoma";
+  text-decoration: underline;
 }
 
 
